@@ -1,4 +1,4 @@
-# Magnetophone  
+# Playback  
 
 Designed around a CTH1M MONO cassette playback head  
 
