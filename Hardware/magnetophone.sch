@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3342,7 +3342,7 @@ HEAD</text>
 <part name="GAIN" library="TomW" deviceset="ALPHA-9MM" device="A" technology="F2" value="50k"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="R14" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="2.2k"/>
-<part name="R16" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="220R"/>
+<part name="R16" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="200R"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="R8" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="200R"/>
 <part name="R10" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="200k"/>
