@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3397,12 +3397,12 @@ Don't get it the wrong way around! </text>
 <instance part="GAIN" gate="G$1" x="177.8" y="106.68"/>
 <instance part="SUPPLY3" gate="GND" x="66.04" y="109.22"/>
 <instance part="R14" gate="G$1" x="167.64" y="114.3" rot="R180"/>
-<instance part="R16" gate="G$1" x="190.5" y="127"/>
+<instance part="R16" gate="G$1" x="190.5" y="127" rot="R180"/>
 <instance part="SUPPLY7" gate="GND" x="200.66" y="116.84"/>
 <instance part="R8" gate="G$1" x="116.84" y="99.06" rot="R270"/>
 <instance part="R10" gate="G$1" x="127" y="106.68"/>
 <instance part="SUPPLY9" gate="GND" x="116.84" y="78.74"/>
-<instance part="R12" gate="G$1" x="157.48" y="104.14" rot="R270"/>
+<instance part="R12" gate="G$1" x="157.48" y="104.14" rot="R90"/>
 <instance part="SUPPLY5" gate="GND" x="157.48" y="96.52"/>
 <instance part="GND21" gate="1" x="111.76" y="63.5"/>
 <instance part="SUPPLY16" gate="G$1" x="101.6" y="50.8"/>
@@ -3452,7 +3452,6 @@ Don't get it the wrong way around! </text>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="157.48" y1="99.06" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -3547,7 +3546,7 @@ Don't get it the wrong way around! </text>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U2" gate="B" pin="OUT"/>
-<wire x1="195.58" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="GAIN" gate="G$1" pin="S"/>
@@ -3562,7 +3561,7 @@ Don't get it the wrong way around! </text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <pinref part="OUT" gate="G$1" pin="TIP"/>
 </segment>
 </net>
@@ -3605,7 +3604,7 @@ Don't get it the wrong way around! </text>
 <wire x1="157.48" y1="124.46" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="114.3" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="114.3" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <junction x="157.48" y="114.3"/>
 </segment>

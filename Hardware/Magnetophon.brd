@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -139,7 +139,7 @@ Music Thing Modular
 Designed in Herne Hill, London
 By Tom Whitwell October 2015
 PCB Prototype 1 CC-BY-SA</text>
-<text x="32.512" y="11.557" size="0.762" layer="22" font="vector" distance="40" rot="MR0">Inspired by: Laurie Anderson, Nam June Paik, 
+<text x="32.512" y="11.557" size="0.762" layer="30" font="vector" ratio="12" distance="40" rot="MR0">Inspired by: Laurie Anderson, Nam June Paik, 
 Brian Eno, Stockhausen, Yoko Ono, Steve Reich,
 Sender &amp; Subotnik, Terry Riley,  Halim El-Dabh, 
 John Cage, Hugh Le Caine, Delia Derbyshire</text>
@@ -857,6 +857,7 @@ John Cage, Hugh Le Caine, Delia Derbyshire</text>
 <vertex x="44.371259375" y="1.234440625"/>
 <vertex x="48.60798125" y="1.234440625"/>
 </polygon>
+<rectangle x1="65.405" y1="13.97" x2="85.725" y2="15.875" layer="30"/>
 </plain>
 <libraries>
 <library name="TomW">
@@ -1361,10 +1362,10 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="U2" pad="3"/>
 <contactref element="EXT" pad="P$1_TIP"/>
-<wire x1="16.59" y1="9.525" x2="21.59" y2="9.525" width="1.016" layer="1"/>
-<wire x1="21.59" y1="9.525" x2="23.495" y2="11.43" width="1.016" layer="1"/>
-<wire x1="23.495" y1="11.43" x2="29.21" y2="11.43" width="1.016" layer="1"/>
-<wire x1="29.21" y1="11.43" x2="31.115" y2="9.525" width="1.016" layer="1"/>
+<wire x1="16.59" y1="9.525" x2="16.51" y2="11.43" width="1.016" layer="1"/>
+<wire x1="16.51" y1="11.43" x2="17.78" y2="12.7" width="1.016" layer="1"/>
+<wire x1="17.78" y1="12.7" x2="27.94" y2="12.7" width="1.016" layer="1"/>
+<wire x1="27.94" y1="12.7" x2="31.115" y2="9.525" width="1.016" layer="1"/>
 <wire x1="31.115" y1="9.525" x2="31.115" y2="6.985" width="1.016" layer="1"/>
 <wire x1="31.115" y1="6.985" x2="33.02" y2="5.08" width="1.016" layer="1"/>
 <wire x1="33.02" y1="5.08" x2="35.56" y2="5.08" width="1.016" layer="1"/>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="2" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -1666,8 +1666,6 @@ design rules under a new name.</description>
 <vertex x="128.524" y="-0.0508"/>
 <vertex x="0" y="-0.0508"/>
 </polygon>
-</signal>
-<signal name="N$1">
 <wire x1="77.5588" y1="10.0076" x2="77.5613" y2="10.1347" width="0.2" layer="1"/>
 <wire x1="77.5613" y1="10.1347" x2="77.5434" y2="10.2625" width="0.2" layer="1"/>
 <wire x1="77.5434" y1="10.2625" x2="77.505" y2="10.3878" width="0.2" layer="1"/>
@@ -2262,6 +2260,8 @@ design rules under a new name.</description>
 <wire x1="78.0396" y1="1.9209" x2="79.2927" y2="2.2089" width="0.2" layer="1"/>
 <wire x1="79.2927" y1="2.2089" x2="80.4872" y2="2.6902" width="0.2" layer="1"/>
 <wire x1="80.4872" y1="2.6902" x2="81.5933" y2="3.3534" width="0.2" layer="1"/>
+<via x="77.5208" y="10.0076" extent="1-16" drill="0.3302"/>
+<wire x1="77.5208" y1="10.0076" x2="77.5588" y2="10.0076" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <wire x1="108.7248" y1="9.906" x2="108.7223" y2="10.0331" width="0.2" layer="1"/>
