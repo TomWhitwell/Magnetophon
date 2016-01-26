@@ -134,7 +134,7 @@
 <wire x1="105" y1="19" x2="0" y2="19" width="0.0254" layer="20"/>
 <wire x1="65.405" y1="12.7" x2="88.9" y2="12.7" width="2.54" layer="46"/>
 <text x="73.66" y="12.7" size="1.016" layer="20">Cut out</text>
-<text x="32.385" y="1.27" size="1.016" layer="22" rot="MR0">Tape Head 
+<text x="32.385" y="1.27" size="1.016" layer="22" rot="MR0">Magnetophon
 Music Thing Modular 
 Designed in Herne Hill, London
 By Tom Whitwell October 2015

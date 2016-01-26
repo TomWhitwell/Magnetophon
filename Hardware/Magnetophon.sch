@@ -3412,7 +3412,7 @@ Don't get it the wrong way around! </text>
 <instance part="SUPPLY18" gate="G$1" x="132.08" y="49.53"/>
 <instance part="SUPPLY19" gate="+12V" x="132.08" y="81.28"/>
 <instance part="C4" gate="G$1" x="132.08" y="71.12"/>
-<instance part="C5" gate="G$1" x="132.08" y="60.96"/>
+<instance part="C5" gate="G$1" x="132.08" y="60.96" rot="R180"/>
 <instance part="C2" gate="G$1" x="101.6" y="63.5"/>
 <instance part="D5" gate="1" x="165.1" y="68.58" rot="R90"/>
 <instance part="D6" gate="1" x="165.1" y="55.88" rot="R90"/>
@@ -3463,7 +3463,6 @@ Don't get it the wrong way around! </text>
 <pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="55.88" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -3531,7 +3530,7 @@ Don't get it the wrong way around! </text>
 <pinref part="SUPPLY18" gate="G$1" pin="-12V"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="52.07" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="53.34" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="53.34" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="58.42" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 <junction x="132.08" y="53.34"/>
