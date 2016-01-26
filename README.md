@@ -21,9 +21,9 @@ BOM:
 - 2 x 200R resistor 
 
 Status: 
-Not verified 
-January 2016 Prototype sent for manufacture 
-October 2015 Designed 
+- Not verified 
+- January 2016 Prototype sent for manufacture 
+- October 2015 Designed 
 
 
 
