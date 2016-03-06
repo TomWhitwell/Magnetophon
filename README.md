@@ -14,11 +14,13 @@ BOM:
 - 1 x 47uf Electrolytic Capacitor 
 - 2 x 10uf Electrolytic Capacitors 
 - 2 x 100nf Ceramic Capacitor 
-- 1 x 15nf Ceramic Capacitor 
+- 1 x 15nf Polybox Capacitor
 - 1 x 200k resistor 
 - 1 x 3.6k resistor 
 - 2 x 2.2k resistor 
 - 2 x 200R resistor 
+
++ Needs a 10n Ceramic Capacitor between pins 1&2 of the op amp to prevent oscillation. 
 
 Status: 
 - Not verified 
