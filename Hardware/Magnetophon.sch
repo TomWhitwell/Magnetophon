@@ -3374,6 +3374,7 @@ HEAD</text>
 <part name="OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="U2" library="MusicThingModular" deviceset="TL072" device="_"/>
 <part name="U$2" library="MusicThingModular" deviceset="EURO_POWER_LOCK" device=""/>
+<part name="C7" library="TomW" deviceset="C-EU" device="050-024X044" value="10nf"/>
 </parts>
 <sheets>
 <sheet>
@@ -3399,9 +3400,9 @@ Don't get it the wrong way around! </text>
 <instance part="R14" gate="G$1" x="167.64" y="114.3" rot="R180"/>
 <instance part="R16" gate="G$1" x="190.5" y="127" rot="R180"/>
 <instance part="SUPPLY7" gate="GND" x="200.66" y="116.84"/>
-<instance part="R8" gate="G$1" x="116.84" y="99.06" rot="R270"/>
-<instance part="R10" gate="G$1" x="127" y="106.68"/>
-<instance part="SUPPLY9" gate="GND" x="116.84" y="78.74"/>
+<instance part="R8" gate="G$1" x="116.84" y="91.44" rot="R270"/>
+<instance part="R10" gate="G$1" x="127" y="109.22"/>
+<instance part="SUPPLY9" gate="GND" x="116.84" y="71.12"/>
 <instance part="R12" gate="G$1" x="157.48" y="104.14" rot="R90"/>
 <instance part="SUPPLY5" gate="GND" x="157.48" y="96.52"/>
 <instance part="GND21" gate="1" x="111.76" y="63.5"/>
@@ -3422,13 +3423,14 @@ Don't get it the wrong way around! </text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U$1" gate="G$1" x="45.72" y="116.84"/>
 <instance part="SUPPLY1" gate="GND" x="55.88" y="109.22"/>
-<instance part="C3" gate="G$1" x="116.84" y="88.9"/>
+<instance part="C3" gate="G$1" x="116.84" y="81.28"/>
 <instance part="C6" gate="G$1" x="124.46" y="116.84" rot="R270"/>
 <instance part="R1" gate="G$1" x="134.62" y="116.84"/>
 <instance part="EXT" gate="G$1" x="71.12" y="119.38"/>
 <instance part="OUT" gate="G$1" x="205.74" y="124.46"/>
 <instance part="U2" gate="P" x="124.46" y="66.04"/>
 <instance part="U$2" gate="G$1" x="73.66" y="60.96"/>
+<instance part="C7" gate="G$1" x="132.08" y="101.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3488,7 +3490,7 @@ Don't get it the wrong way around! </text>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="116.84" y1="83.82" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="76.2" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3571,30 +3573,38 @@ Don't get it the wrong way around! </text>
 <wire x1="142.24" y1="127" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <junction x="142.24" y="127"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="116.84" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="116.84" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="127" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="B" pin="+IN"/>
 <wire x1="142.24" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 <junction x="142.24" y="116.84"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="127" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="101.6" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<junction x="142.24" y="109.22"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="-IN"/>
-<wire x1="116.84" y1="106.68" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="109.22" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="116.84" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="104.14" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<junction x="116.84" y="106.68"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<junction x="116.84" y="109.22"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="101.6" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <junction x="116.84" y="116.84"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<junction x="116.84" y="101.6"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3659,7 +3669,7 @@ Don't get it the wrong way around! </text>
 <segment>
 <pinref part="C3" gate="G$1" pin="+"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="91.44" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="83.82" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
