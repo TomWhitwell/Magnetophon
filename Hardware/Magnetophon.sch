@@ -3333,9 +3333,9 @@ HEAD</text>
 <classes>
 <class number="0" name="default" width="0.3048" drill="0">
 </class>
-<class number="1" name="power" width="0.6096" drill="0">
+<class number="1" name="power" width="0.4064" drill="0">
 </class>
-<class number="2" name="ground" width="0.6096" drill="0">
+<class number="2" name="ground" width="0.4064" drill="0">
 </class>
 </classes>
 <parts>
@@ -3493,7 +3493,7 @@ Don't get it the wrong way around! </text>
 <wire x1="116.84" y1="76.2" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TOAMP" class="0">
 <segment>
 <wire x1="66.04" y1="121.92" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
@@ -3658,7 +3658,7 @@ Don't get it the wrong way around! </text>
 <wire x1="172.72" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="FROMHEAD" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
