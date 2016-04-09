@@ -1,6 +1,10 @@
 # Magnetophon  
 
-Designed around a CTH1M MONO cassette playback head  
+With a mono cassette head in the panel and a NAB equalised ampli er circuit, Magnetophon is a cassette player without the transport mecha- nism. Try rubbing old cassette tapes on the panel, or attach a head on a wire to recreate Nam June Paik’s
+Random Access or Laurie Anderson's Tape Bow Violin. 
+
+[Magnetophon is in this video from SuperBooth16 in Berlin](https://youtu.be/UVMrQejVZlw?t=4m26s) 
+
 
 BOM: 
 
@@ -23,7 +27,7 @@ BOM:
 
 Status: 
 - Proto 2 designed and sent to fab 
-- Proto 1 used for 4 days solid at SuperBooth 
+- Proto 1 used for 4 days straight at SuperBooth 
 - Proto 1 built, needed extra capactitor to kill huge ultrasonic oscillation
 - Not verified 
 - January 2016 Prototype sent for manufacture 
