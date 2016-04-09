@@ -15,14 +15,16 @@ BOM:
 - 2 x 10uf Electrolytic Capacitors 
 - 2 x 100nf Ceramic Capacitor 
 - 1 x 15nf Polybox Capacitor
+- 1 x 10n ceramic capacitor 
 - 1 x 200k resistor 
 - 1 x 3.6k resistor 
 - 2 x 2.2k resistor 
 - 2 x 200R resistor 
 
-+ Needs a 10n Ceramic Capacitor between pins 1&2 of the op amp to prevent oscillation. 
-
 Status: 
+- Proto 2 designed and sent to fab 
+- Proto 1 used for 4 days solid at SuperBooth 
+- Proto 1 built, needed extra capactitor to kill huge ultrasonic oscillation
 - Not verified 
 - January 2016 Prototype sent for manufacture 
 - October 2015 Designed 
