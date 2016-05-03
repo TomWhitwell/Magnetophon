@@ -28,7 +28,7 @@ BOM:
 - NB: C7 is NOT required but left on the board in case you have any oscillation in the first op amp. 
 
 Status: 
-- Rev 1 (= Proto 2 with silkscreen tweaks) should be good to build. 
+- May 2016: Rev 1 (= Proto 2 with silkscreen tweaks) should be good to build. 
 - Proto 2 works well. 
 - Proto 2 designed and sent to fab 
 - Proto 1 used for 4 days straight at SuperBooth 
