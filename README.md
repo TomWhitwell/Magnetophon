@@ -17,15 +17,17 @@ BOM:
 - 1 x CTH1M MONO cassette playback head
 - 2 x Poly Fuses (100ma blow or higher) 
 - 2 x 1N4001 diodes 
-- 1 x 47uf Electrolytic Capacitor 
-- 2 x 10uf Electrolytic Capacitors 
+- 1 x 47uf Electrolytic Capacitor* 
+- 2 x 10uf Electrolytic Capacitors* 
 - 2 x 100nf Ceramic Capacitor 
 - 1 x 15nf Polybox Capacitor
 - 1 x 200k resistor 
 - 1 x 3.6k resistor 
 - 2 x 2.2k resistor 
 - 2 x 200R resistor 
-- NB: C7 is NOT required but left on the board in case you have any oscillation in the first op amp. 
+- Notes: 
+- C7 is NOT required but left on the board in case you have any oscillation in the first op amp. 
+- *Electo caps should be short - 7mm tall - to fit between the boards. Otherwise, you can mount them on the back if you are careful of polarity. 
 
 Status: 
 - May 2016: Rev 1 (= Proto 2 with silkscreen tweaks) should be good to build. 
