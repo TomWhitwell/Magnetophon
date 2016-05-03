@@ -7,6 +7,8 @@ Random Access or Laurie Anderson's Tape Bow Violin.
 
 [Magnetophon is in this video from SuperBooth16 in Berlin](https://youtu.be/UVMrQejVZlw?t=4m26s) 
 
+[Magnetophon vs Nagra audio torture test. The Nagra sounds better but it gets fun when the Magnetophon head starts moving](https://soundcloud.com/musicthing/nagra-v-magnetophon)
+
 
 BOM: 
 
