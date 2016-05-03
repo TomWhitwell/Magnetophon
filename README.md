@@ -21,13 +21,15 @@ BOM:
 - 2 x 10uf Electrolytic Capacitors 
 - 2 x 100nf Ceramic Capacitor 
 - 1 x 15nf Polybox Capacitor
-- 1 x 10n ceramic capacitor 
 - 1 x 200k resistor 
 - 1 x 3.6k resistor 
 - 2 x 2.2k resistor 
 - 2 x 200R resistor 
+- NB: C7 is NOT required but left on the board in case you have any oscillation in the first op amp. 
 
 Status: 
+- Rev 1 (= Proto 2 with silkscreen tweaks) should be good to build. 
+- Proto 2 works well. 
 - Proto 2 designed and sent to fab 
 - Proto 1 used for 4 days straight at SuperBooth 
 - Proto 1 built, needed extra capactitor to kill huge ultrasonic oscillation
