@@ -28,7 +28,7 @@ BOM:
 - 2 x 2.2k resistor 
 - 2 x 200R resistor 
 - Notes: 
-- C7 is NOT required but left on the board in case you have any oscillation in the first op amp. 
+- C7 is NOT required but a space is left on the board in case you have any oscillation in the first op amp stage. 
 - *Electo caps should be short - 7mm tall - to fit between the boards. Otherwise, you can mount them on the back if you are careful of polarity. 
 
 Status: 
