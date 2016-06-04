@@ -5,6 +5,8 @@
 With a mono cassette head in the panel and a NAB equalised ampli er circuit, Magnetophon is a cassette player without the transport mechanism. Try rubbing old cassette tapes on the panel, or attach a head on a wire to recreate Nam June Paik’s
 Random Access or Laurie Anderson's Tape Bow Violin. 
 
+[Schematic](https://github.com/TomWhitwell/Magnetophon/blob/master/Collateral/Magnetophon_schematic.pdf)
+
 [Magnetophon is in this video from SuperBooth16 in Berlin](https://youtu.be/UVMrQejVZlw?t=4m26s) 
 
 [Magnetophon vs Nagra audio torture test. The Nagra sounds better(!) but it gets fun when the Magnetophon head starts moving](https://soundcloud.com/musicthing/nagra-v-magnetophon)
