@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6694,7 +6694,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R8" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="200R"/>
 <part name="R10" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="200k"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="R12" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="2.2k"/>
+<part name="R12" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="470R"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="-12V" device=""/>
