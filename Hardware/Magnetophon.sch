@@ -6738,6 +6738,10 @@ Total gain =  5-130 </text>
 If not required, omit diodes and replace
 fuses with jumper wire. 
 Don't get it the wrong way around! </text>
+<text x="127" y="91.44" size="1.016" layer="91">Install 10nf capacitor in C7 
+if circuit doesn't work
+(Caused by inaudible high 
+frequency oscillation)</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="129.54" y="127"/>
