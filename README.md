@@ -27,7 +27,8 @@ BOM:
 - 1 x 15nf Polybox Capacitor
 - 1 x 200k resistor 
 - 1 x 3.6k resistor 
-- 2 x 2.2k resistor 
+- 1 x 2.2k resistor 
+- 1 x 470R resistor 
 - 2 x 200R resistor 
 - Notes: 
 - C7 is NOT required but a space is left on the board in case you have any oscillation in the first op amp stage. 
